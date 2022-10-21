@@ -1,3 +1,5 @@
 node_modules
 /*.js
+/*.ts
 dist
+/src/vite-env.d.ts
