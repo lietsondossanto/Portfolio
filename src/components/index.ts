@@ -1,3 +1,4 @@
 import TaskBar from './Taskbar'
+import FileExplorer from './FileExplorer'
 
-export { TaskBar }
+export { TaskBar, FileExplorer }
