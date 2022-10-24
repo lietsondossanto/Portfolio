@@ -9,6 +9,7 @@ import Chrome from './../../assets/icons/chrome.svg'
 import Cortana from './../../assets/icons/cortana.svg'
 import File_Explorer from './../../assets/icons/file_explorer.png'
 import Microsoft_Store from './../../assets/icons/microsoft_store_white.svg'
+import Github from './../../assets/icons/github.png'
 
 const TaskBar: React.FC = () => {
   const date = new Date()
@@ -69,6 +70,21 @@ const TaskBar: React.FC = () => {
               alt="Microsoft Store icon"
               title="Microsoft Store"
             />
+          </li>
+
+          <li className="list__item list__item--app">
+            <a
+              href="https://github.com/lietsondossanto"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={Github}
+                className="item__icon"
+                alt="Github icon"
+                title="Github"
+              />
+            </a>
           </li>
         </ListRight>
 

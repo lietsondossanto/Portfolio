@@ -24,11 +24,22 @@ export const ListRight = styled('ul', {
   height: '100%',
 
   '.list__item': {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
     width: '3.5rem',
     height: '2.5rem',
     listStyle: 'none',
     textDecoration: 'none',
     textTransform: 'none',
+
+    a: {
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      width: '100%',
+      height: '100%'
+    },
 
     '.item__icon': {
       fontSize: '1rem'
